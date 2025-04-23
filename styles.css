@@ -19,6 +19,14 @@ header {
     padding-left: 1100px;
 }
 
+.circle-logo{
+    border-radius: 50%;
+    position: absolute;
+    left: 60px;
+    top:  20px;
+    bottom: 50px;
+}
+
 .navbar ul {
     list-style-type: none;
     background-color: #bb0101;   
