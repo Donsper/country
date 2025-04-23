@@ -2,21 +2,54 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(image/bg1.png); /* Path to the image */
-    background-size: cover; /* Ensures the image covers the entire viewport */
-    background-position: center; /* Centers the image */
-    height: 109hv;
+    background-image: url(image/bg2.jpg); 
+    background-size: auto; 
+    background-position: center; 
+    background-repeat: no-repeat;
+ 
+    
 }
 
 
 header {
-    background-color: #d32f2f;
-    color: white;
-    text-align: center;
-    padding: 40px;
+    background-color: #ffffff;
+    color: #bb0101;
+    text-align: left;
+    padding: 4px;
+    padding-left: 1200px;
 }
 
+.navbar ul {
+    list-style-type: none;
+    background-color: #bb0101;   
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    padding-left: 80px;
+    
+}
 
+.navbar li {
+    display: inline;
+    margin: 0 30px;
+    float: left;
+    
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    display: block; 
+    text-align: center;
+    
+}
+.navbar a:hover {
+    opacity: 0.8;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
+   }
+
+/*
 nav a {
     background-color: #fdf59f;
     color: black;
@@ -25,7 +58,7 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     transition: box-shadow 0.15s;
-
+    
 }
 nav a:hover {
     opacity: 0.8;
@@ -33,7 +66,7 @@ nav a:hover {
    }
 nav a:active {
      opacity: 0.5;
-   }
+   }*/
 
 /*
 section {
@@ -42,8 +75,12 @@ section {
 
 /*
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    color: #bb0101;
     text-align: center;
-    padding: 10px;
-    background-color: #222;
-    color: white;
+    padding: 12px;
 }*/
