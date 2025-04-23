@@ -49,29 +49,29 @@ header {
     box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
    }
 
-/*
-nav a {
-    background-color: #fdf59f;
-    color: black;
-    border-radius: 2px;
-    margin: 0 1em;
-    text-decoration: none;
-    font-weight: bold;
-    transition: box-shadow 0.15s;
+
+.overview {
+    
+    color: rgb(255, 255, 255);
+    max-width: 800px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    padding-left: 200px;
+}
+.overview h2 {
+    text-align: left;
+    font-size: 50px;
+    font-weight: 800;
+    padding-left: 0px;
+    color: #bb0101;
+}
+.overview p {
+    font-weight: 800;
+    padding-left: 0px;
     
 }
-nav a:hover {
-    opacity: 0.8;
-    box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
-   }
-nav a:active {
-     opacity: 0.5;
-   }*/
 
-/*
-section {
-    padding: 20px;
-}*/
+
 
 /*
 footer {
