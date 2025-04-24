@@ -1,3 +1,5 @@
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -16,6 +18,7 @@ header {
     text-align: left;
     padding: 4px;
     padding-left: 1100px;
+    
 }
 
 .circle-logo{
@@ -41,6 +44,7 @@ header {
     margin: 0 30px;
     float: left;
     
+    
 }
 
 .navbar a {
@@ -49,12 +53,14 @@ header {
     padding: 15px;
     display: block; 
     text-align: center;
+    font-weight: 800;
     
 }
 .navbar a:hover {
     opacity: 0.8;
-    box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     transition: box-shadow 0.15s;
+    color: rgb(0, 0, 0);
 }
 .navbar a:active{
     opacity: 0.5;
@@ -62,7 +68,6 @@ header {
 
 
 .overview {
-    
     color: rgb(255, 255, 255);
     max-width: 800px;
     margin-top: 7px;
@@ -201,6 +206,7 @@ header {
 .wiki-button:hover{
     opacity: 0.8;
     box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
+    color: #d00505;
 }
 .wiki-button:active{
     opacity: 0.5;
@@ -213,5 +219,5 @@ footer {
     background-color: #d00505;
     color: #ffffff;
     text-align: center;
-    font-weight: 800;
+    
 }
