@@ -12,7 +12,7 @@ body {
 
 header {
     background-color: #ffffff;
-    color: #bb0101;
+    color: #d00505;
     text-align: left;
     padding: 4px;
     padding-left: 1100px;
@@ -28,7 +28,7 @@ header {
 
 .navbar ul {
     list-style-type: none;
-    background-color: #bb0101;   
+    background-color: #d00505;   
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -54,7 +54,11 @@ header {
 .navbar a:hover {
     opacity: 0.8;
     box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
-   }
+    transition: box-shadow 0.15s;
+}
+.navbar a:active{
+    opacity: 0.5;
+}
 
 
 .overview {
@@ -70,18 +74,46 @@ header {
     font-size: 50px;
     font-weight: 800;
     padding-left: 0px;
-    color: #bb0101;
+    color: #d00505;
 }
+.overview h3 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 800;
+    padding-left: 0px;
+    color: #d00505;
+}
+
+.historypictitle{
+    display: flex;
+    align-items: center;
+    height: 70%;
+    padding: 0 14%;
+    color: #d00505;
+    justify-content: space-between;
+}
+.historypictitle h4 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
 .overview p {
     font-weight: 800;
     padding-left: 0px;
     
 }
-
+.bg1-img {
+    border-radius:2mm;
+    position: absolute;
+    top: 200px;
+    bottom: 100px;
+    padding-left: 1000px;
+}
 .chico-img {
     border-radius:2mm;
     position: absolute;
-    top: 350px;
+    top: 390px;
     bottom: 100px;
     padding-left: 200px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
@@ -91,9 +123,9 @@ header {
 .inca-img {
     border-radius:2mm;
     position: absolute;
-    top: 350px;
+    top: 390px;
     bottom: 100px;
-    padding-left: 550px;
+    padding-left: 598px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
 
 }
@@ -101,9 +133,9 @@ header {
 .machu-img {
     border-radius:2mm;
     position: absolute;
-    top: 350px;
+    top: 390px;
     bottom: 100px;
-    padding-left: 900px;
+    padding-left: 985px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
 
 }
@@ -125,14 +157,61 @@ header {
     padding-left: 1030px; 
     box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
 }
-/*
+
+.coast-img {
+    border-radius:2mm;
+    position: absolute;
+    top: 200px;
+    bottom: 100px;
+    padding-left: 1030px; 
+    box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
+}
+
+.mountain-img {
+    border-radius:2mm;
+    position: absolute;
+    top: 368px;
+    bottom: 100px;
+    padding-left: 1030px; 
+    box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
+}
+
+.amazon-img {
+    border-radius:2mm;
+    position: absolute;
+    top: 515px;
+    bottom: 100px;
+    padding-left: 1030px; 
+    box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
+}
+
+.wiki-button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Times New Roman", Times, serif;
+    cursor: pointer; 
+    transition: box-shadow 0.15s;
+}
+.wiki-button:hover{
+    opacity: 0.8;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
+}
+.wiki-button:active{
+    opacity: 0.5;
+}
 footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    
-    color: #bb0101;
+    background-color: #d00505;
+    color: #ffffff;
     text-align: center;
-    padding: 12px;
-}*/
+    font-weight: 800;
+}
