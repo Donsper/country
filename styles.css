@@ -78,8 +78,53 @@ header {
     
 }
 
+.chico-img {
+    border-radius:2mm;
+    position: absolute;
+    top: 350px;
+    bottom: 100px;
+    padding-left: 200px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
 
+  }
 
+.inca-img {
+    border-radius:2mm;
+    position: absolute;
+    top: 350px;
+    bottom: 100px;
+    padding-left: 550px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
+
+}
+
+.machu-img {
+    border-radius:2mm;
+    position: absolute;
+    top: 350px;
+    bottom: 100px;
+    padding-left: 900px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
+
+}
+
+.intiraymi-img {
+    border-radius:2mm;
+    position: absolute;
+    top: 170px;
+    bottom: 100px;
+    padding-left: 1030px; 
+    box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
+}
+
+.ceviche-img {
+    border-radius:2mm;
+    position: absolute;
+    top: 410px;
+    bottom: 100px;
+    padding-left: 1030px; 
+    box-shadow: 10px 10px 10px rgb(0, 0, 0 ,0.5);
+}
 /*
 footer {
     position: fixed;
